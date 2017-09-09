@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="core"
+		module="core_2.12"
+		revision="0.0.1"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170909153442"/>
+	<dependencies>
+		<module organisation="com.github.mlaccetti" name="rocksaw">
+			<revision name="1.1.0" status="release" pubdate="20160322211939" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/mlaccetti/rocksaw" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3773" time="0" location="/home/clin/.ivy2/cache/com.github.mlaccetti/rocksaw/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/mlaccetti/rocksaw/1.1.0/rocksaw-1.1.0.pom"/>
+				<caller organisation="core" name="core_2.12" conf="compile" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="rocksaw" type="jar" ext="jar" status="no" details="" size="7460" time="0" location="/home/clin/.ivy2/cache/com.github.mlaccetti/rocksaw/jars/rocksaw-1.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/mlaccetti/rocksaw/1.1.0/rocksaw-1.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.mlaccetti" name="vserv-tcpip">
+			<revision name="0.9.2.1" status="release" pubdate="20160322020410" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/mlaccetti/vserv-tcpip" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Lesser General Public License (LGPL)" url="http://www.gnu.org/copyleft/lesser.txt"/>
+				<metadata-artifact status="no" details="" size="3183" time="0" location="/home/clin/.ivy2/cache/com.github.mlaccetti/vserv-tcpip/ivy-0.9.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/mlaccetti/vserv-tcpip/0.9.2.1/vserv-tcpip-0.9.2.1.pom"/>
+				<caller organisation="com.github.mlaccetti" name="rocksaw" conf="default, compile, runtime, master" rev="0.9.2.1" rev-constraint-default="0.9.2.1" rev-constraint-dynamic="0.9.2.1" callerrev="1.1.0"/>
+				<artifacts>
+					<artifact name="vserv-tcpip" type="jar" ext="jar" status="no" details="" size="13535" time="0" location="/home/clin/.ivy2/cache/com.github.mlaccetti/vserv-tcpip/jars/vserv-tcpip-0.9.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/mlaccetti/vserv-tcpip/0.9.2.1/vserv-tcpip-0.9.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.java.dev.jna" name="jna">
+			<revision name="4.2.2" status="release" pubdate="20160316154216" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/java-native-access/jna" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="LGPL, version 2.1" url="http://www.gnu.org/licenses/licenses.html"/>
+				<license name="ASL, version 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2562" time="0" location="/home/clin/.ivy2/cache/net.java.dev.jna/jna/ivy-4.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.2.2/jna-4.2.2.pom"/>
+				<caller organisation="com.github.mlaccetti" name="rocksaw" conf="default, compile, runtime, master" rev="4.2.2" rev-constraint-default="4.2.2" rev-constraint-dynamic="4.2.2" callerrev="1.1.0"/>
+				<artifacts>
+					<artifact name="jna" type="jar" ext="jar" status="no" details="" size="1137286" time="0" location="/home/clin/.ivy2/cache/net.java.dev.jna/jna/jars/jna-4.2.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-simple">
+			<revision name="1.7.25" status="release" pubdate="20170316173640" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5357" time="0" location="/home/clin/.ivy2/cache/org.slf4j/slf4j-simple/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.pom"/>
+				<caller organisation="core" name="core_2.12" conf="compile" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="slf4j-simple" type="jar" ext="jar" status="no" details="" size="15257" time="0" location="/home/clin/.ivy2/cache/org.slf4j/slf4j-simple/jars/slf4j-simple-1.7.25.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.25" status="release" pubdate="20170316173632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5199" time="0" location="/home/clin/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom"/>
+				<caller organisation="core" name="core_2.12" conf="compile" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="0.0.1"/>
+				<caller organisation="org.slf4j" name="slf4j-simple" conf="default, compile, runtime, master" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="1.7.25"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="41203" time="0" location="/home/clin/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.2" status="release" pubdate="20170413101911" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.2/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/clin/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2.pom"/>
+				<caller organisation="core" name="core_2.12" conf="compile" rev="2.12.2" rev-constraint-default="2.12.2" rev-constraint-dynamic="2.12.2" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5278660" time="0" location="/home/clin/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
